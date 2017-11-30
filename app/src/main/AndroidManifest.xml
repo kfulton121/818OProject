@@ -18,6 +18,7 @@
         </activity>
 
         <service android:name=".PacketSender"
+            android:process="remote"
             android:exported="false"/>
 
         <receiver android:name="com.example.kfulton.packetsendermalware.BootBroadcastReceiver">
